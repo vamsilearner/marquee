@@ -30,13 +30,13 @@ const Login: React.FC = () => {
           <h1 className="text-center mb-4">Marquee Account Login</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername">
-              <Form.Label>Username</Form.Label>
-              <Form.Control type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Enter username" required />
+              <Form.Label>Email Id</Form.Label>
+              <Form.Control type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Enter Email Id" required />
             </Form.Group>
 
             <Form.Group controlId="formPassword">
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" required />
+              <Form.Control type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Enter Password" required />
             </Form.Group>
 
             <Button variant="primary" type="submit" className="w-100 mt-3">

@@ -1,7 +1,7 @@
 vercel_url : https://marquee-orpin.vercel.app/login
 
 ### `Login Credentials`
-Username: user,  
+Username: user@gmail.com,  
 Password: password
 
 # Getting Started with Create React App

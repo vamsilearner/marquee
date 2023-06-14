@@ -19,7 +19,7 @@ const AuthProvider: FC<{ children: React.ReactNode }> = ({ children }) => {
 
   const login = (username: string, password: string) => {
     // Mock user data for login
-    if (username === "user" && password === "password") {
+    if (username === "user@gmail.com" && password === "password") {
       setIsLoggedIn(true);
       setUser({ username });
       const token ="test-token";

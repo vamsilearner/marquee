@@ -1,3 +1,9 @@
+# vercel_url : https://marquee-orpin.vercel.app/login
+
+# Login Credentials
+# Username: user
+# Password: Password
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

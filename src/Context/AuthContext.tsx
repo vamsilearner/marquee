@@ -24,6 +24,8 @@ const AuthProvider: FC<{ children: React.ReactNode }> = ({ children }) => {
       setUser({ username });
       const token ="test-token";
       localStorage.setItem('token', token);
+    } else {
+      alert("Invalid username or password");
     }
   };
 

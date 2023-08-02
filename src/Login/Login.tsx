@@ -27,6 +27,8 @@ const Login: React.FC = () => {
     <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
       <Row>
         <Col>
+          <label>login credentials</label>
+          <P>Email Id: user@gmail.com, password: password</P>
           <h1 className="text-center mb-4">Marquee Account Login</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername">

@@ -27,8 +27,6 @@ const Login: React.FC = () => {
     <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
       <Row>
         <Col>
-          <label>login credentials</label>
-          <P>Email Id: user@gmail.com, password: password</P>
           <h1 className="text-center mb-4">Marquee Account Login</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername">
@@ -40,7 +38,7 @@ const Login: React.FC = () => {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Enter Password" required />
             </Form.Group>
-
+            <P>Try only this credentials: Email Id: user@gmail.com, password: password</P>
             <Button variant="primary" type="submit" className="w-100 mt-3">
               Login
             </Button>

@@ -27,7 +27,7 @@ const Login: React.FC = () => {
     <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
       <Row>
         <Col>
-          <h1 className="text-center mb-4">Marquee Account Login</h1>
+          <h1 className="text-center mb-4">Todo Account Login</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername">
               <Form.Label>Email Id</Form.Label>
